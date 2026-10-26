@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.gtasacoop'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.gtasacoop'
+        minSdk 23
+        targetSdk 28
+        versionCode 2
+        versionName '2.0'
+    }
+}
